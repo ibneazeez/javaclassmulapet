@@ -6,6 +6,7 @@ public class Assalam {
 		
 		System.out.println("Assalamaliakum");
 		System.out.println("walikum assalam");
+		System.out.println("Seri");
 	}
 
 }
