@@ -2,15 +2,17 @@ package com.me.homework.adnan;
 
 public class ExceptionsHome {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 		
 		System.out.println("Temp");
-		try {
-			testAge(190);
-		} catch (AgeBoundException e) {
-			
-			e.printStackTrace();
-		}
+	
+			try {
+				testAge(190);
+			} catch (AgeBoundException e) {
+				
+				e.printStackTrace();
+			}
+		
 		
 	}
 	
